@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <header>
+        <h2>Chatter Box - A place to chat</h2>
+    </header>
+
+    <nav>
+	
+	<a href="About.html" class="button">About</a>
+	
+    </nav>
+
+    <div class="opening">
+        <h1>Chatter Box</h1>
+
+        <label for="Username">Username:</label>
+        <input type="text" name="Username" id="Username">
+
+        <br><br>
+
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password">
+
+        <br><br>
+
+        <a href="Home.html" class="button" onclick="loginSuccess()">Login</a>
+		
+		<p id="successMessage"></p>
+    </div>
+
+    <footer>
+	<p>made by Jayden Frese</p>
+    </footer>
+ <script>
+    function loginSuccess() 
+	{ alert("Success!"); }
+</script>
+</body>
+</html>
+
